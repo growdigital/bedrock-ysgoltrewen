@@ -1,0 +1,120 @@
+# Ysgol Treween Pot
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ysgol Trewen Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-04-21 22:24+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: acf-json\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+"X-Poedit-SearchPathExcluded-3: .\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-5: lang\n"
+
+#: 404.php:12
+msgid "That page can’t be found."
+msgstr "Ni ellir ddod o hyd i’r dudalen yna."
+
+#: 404.php:13
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Ni ellir ddod o hyd i unrhywbeth yn y lleoliad hwn. Cliciwch ar un o’r "
+"liciau isod neu chwiliwch."
+
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: footer.php:12
+msgid "Address"
+msgstr "Cyfeiriad"
+
+#: footer.php:12
+msgid "Newcastle Emlyn"
+msgstr "Castell Newydd Emlyn"
+
+#: footer.php:13
+msgid "Tel"
+msgstr "Rhif ffôn"
+
+#: footer.php:14 functions.php:176
+msgid "Email"
+msgstr "Ebost"
+
+#: functions.php:171
+msgid "School details"
+msgstr "Manylion ysgol"
+
+#: functions.php:174
+msgid "Telephone"
+msgstr "Rhif ffôn"
+
+#: functions.php:178
+msgid "Headteacher"
+msgstr "Pennaeth"
+
+#: functions.php:180
+msgid "Language"
+msgstr "Iaith"
+
+#: functions.php:182
+msgid "Age range"
+msgstr "Ystod oedran"
+
+#: functions.php:184
+msgid "Number of pupils"
+msgstr "Nifer y disgyblion"
+
+#: header.php:22
+msgid "Ysgol Trewen logo"
+msgstr "logo Ysgol Trewen"
+
+#: page-dates.php:35
+msgid "Term dates"
+msgstr "Dyddiadau’r tymor"
+
+#: page-dates.php:41
+msgid "Half term"
+msgstr "Hanner tymor"
+
+#: page-dates.php:50
+msgid "Inset days"
+msgstr "Diwrnodau Hyfforddiant mewn Swydd (HMS)"
+
+#: page-dates.php:51
+msgid "Directed teachers’ closure days"
+msgstr "Diwrnodau gosod i athrawon"
+
+#: page-staff.php:23
+msgid "Photograph of"
+msgstr "Llun o"
+
+#: search.php:13
+msgid "Search results for"
+msgstr "Canlyniadau chwilio am"

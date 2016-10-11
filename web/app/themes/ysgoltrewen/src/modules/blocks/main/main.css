@@ -1,0 +1,19 @@
+/* ==========================================================================
+	 Main
+	 ========================================================================== */
+
+/**
+ * The main chunk of content
+ */
+
+.main {
+	border-bottom: 1px solid var(--grey_light);
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+@media (--medium) {
+	.main {
+		border-bottom: none;
+	}
+}

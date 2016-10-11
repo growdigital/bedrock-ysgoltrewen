@@ -1,0 +1,150 @@
+{
+  "name": "growdigital/bedrock-ysgoltrewen",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "homepage": "https://roots.io/bedrock/",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    }
+  ],
+  "keywords": [
+    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "growdigital/advanced-custom-fields-pro",
+        "version": "5.4.6",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/get/5.4.6.zip"
+        },
+        "require" : {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "growdigital/wp-migrate-db-pro",
+        "version": "1.6.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/get/1.6.1.zip"
+        },
+        "require" : {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "growdigital/wp-migrate-db-pro-media-files",
+        "version": "1.4.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/get/1.4.5.zip"
+        },
+        "require" : {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "growdigital/sitepress-multilingual-cms",
+        "version": "3.5.3.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://bitbucket.org/growdigital/sitepress-multilingual-cms/get/3.5.3.1.zip"
+        },
+        "require" : {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "growdigital/wpml-string-translation",
+        "version": "2.4.2.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://bitbucket.org/growdigital/wpml-string-translation/get/2.4.2.1.zip"
+        },
+        "require" : {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/growdigital/ysgoltrewen-wp"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.6.1",
+    "oscarotero/env": "^1.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "growdigital/advanced-custom-fields-pro": "*",
+    "growdigital/wp-migrate-db-pro": "*",
+    "growdigital/wp-migrate-db-pro-media-files": "*",
+    "growdigital/sitepress-multilingual-cms": "*",
+    "growdigital/wpml-string-translation": "*",
+    "koodimonni-language/core-cy": "*",
+    "koodimonni-language/core-uk": "*",
+    "growdigital/ysgoltrewen": "^0.1.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    ]
+  }
+}
