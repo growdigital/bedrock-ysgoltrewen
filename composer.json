@@ -32,79 +32,24 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/advanced-custom-fields-pro",
-        "version": "5.4.6",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/get/5.4.6.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/wp-migrate-db-pro",
-        "version": "1.6.1",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/get/1.6.1.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/wp-migrate-db-pro-media-files",
-        "version": "1.4.5",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/get/1.4.5.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/sitepress-multilingual-cms",
-        "version": "3.5.3.1",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/sitepress-multilingual-cms/get/3.5.3.1.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@bitbucket.org:growdigital/sitepress-multilingual-cms.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "growdigital/wpml-string-translation",
-        "version": "2.4.2.1",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://bitbucket.org/growdigital/wpml-string-translation/get/2.4.2.1.zip"
-        },
-        "require" : {
-          "composer/installers": "^1.0"
-        }
-      }
+      "type": "vcs",
+      "url": "git@bitbucket.org:growdigital/wpml-string-translation.git"
     },
     {
       "type": "composer",

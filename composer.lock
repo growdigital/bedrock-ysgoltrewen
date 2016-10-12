@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e573fff0568aded51d8f56df0e8a4a92",
-    "content-hash": "de1dd1a769e7d621cff82c14ee62d684",
+    "hash": "4e7ab51e07e771e3b185f653274808b5",
+    "content-hash": "b3baf4c70cb7a99c25abcadee193461d",
     "packages": [
         {
             "name": "composer/installers",
@@ -110,72 +110,75 @@
         {
             "name": "growdigital/advanced-custom-fields-pro",
             "version": "5.4.6",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
+                "reference": "96518cdb84a605e005100f5f96bf3da2801437f1"
+            },
             "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/growdigital/advanced-custom-fields-pro/get/5.4.6.zip",
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-10-07 11:00:14"
         },
         {
             "name": "growdigital/sitepress-multilingual-cms",
             "version": "3.5.3.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/growdigital/sitepress-multilingual-cms/get/3.5.3.1.zip",
-                "reference": null,
-                "shasum": null
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/sitepress-multilingual-cms.git",
+                "reference": "81143d630b68492f4f6ebed97ddf2d216266c289"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-10-08 20:11:52"
         },
         {
             "name": "growdigital/wp-migrate-db-pro",
             "version": "1.6.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro/get/1.6.1.zip",
-                "reference": null,
-                "shasum": null
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git",
+                "reference": "8a4b589244c8337cb8458568f049558375ec62f8"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-10-07 15:10:21"
         },
         {
             "name": "growdigital/wp-migrate-db-pro-media-files",
             "version": "1.4.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/growdigital/wp-migrate-db-pro-media-files/get/1.4.5.zip",
-                "reference": null,
-                "shasum": null
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git",
+                "reference": "05bd023492ae0b2f5530ef0a3f6271ccb795cc4a"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-10-07 15:11:01"
         },
         {
             "name": "growdigital/wpml-string-translation",
             "version": "2.4.2.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/growdigital/wpml-string-translation/get/2.4.2.1.zip",
-                "reference": null,
-                "shasum": null
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:growdigital/wpml-string-translation.git",
+                "reference": "1e8378b3aa3b191945cfbe9e1d5c9e7f8e7919a8"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-10-08 20:11:33"
         },
         {
             "name": "growdigital/ysgoltrewen",
