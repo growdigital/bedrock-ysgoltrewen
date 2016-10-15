@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e7ab51e07e771e3b185f653274808b5",
-    "content-hash": "b3baf4c70cb7a99c25abcadee193461d",
+    "hash": "9dd6b9858d017937a2420cfaa1d7ea29",
+    "content-hash": "39705fbd45dc9a966f480ab37937a6cb",
     "packages": [
         {
             "name": "composer/installers",
@@ -109,76 +109,73 @@
         },
         {
             "name": "growdigital/advanced-custom-fields-pro",
-            "version": "5.4.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
-                "reference": "96518cdb84a605e005100f5f96bf3da2801437f1"
+                "reference": "0934d4409375b93c030e07e216128629b5f243fe"
             },
-            "dist": {
-                "type": "git",
-                "url": "git@bitbucket.org:growdigital/advanced-custom-fields-pro.git",
-                "reference": null,
-                "shasum": null
+            "require": {
+                "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 11:00:14"
+            "time": "2016-10-15 20:13:23"
         },
         {
             "name": "growdigital/sitepress-multilingual-cms",
-            "version": "3.5.3.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/sitepress-multilingual-cms.git",
-                "reference": "81143d630b68492f4f6ebed97ddf2d216266c289"
+                "reference": "90b5f3edbf51ead234c24bc4a9dafd28f8e8beff"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-08 20:11:52"
+            "time": "2016-10-15 20:27:15"
         },
         {
             "name": "growdigital/wp-migrate-db-pro",
-            "version": "1.6.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro.git",
-                "reference": "8a4b589244c8337cb8458568f049558375ec62f8"
+                "reference": "9256a79450a166f1d49afd3957ca0650707ce8e3"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 15:10:21"
+            "time": "2016-10-15 19:56:24"
         },
         {
             "name": "growdigital/wp-migrate-db-pro-media-files",
-            "version": "1.4.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wp-migrate-db-pro-media-files.git",
-                "reference": "05bd023492ae0b2f5530ef0a3f6271ccb795cc4a"
+                "reference": "feffd65c4aa86081297ad38fc5eadcfa8f56162a"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-07 15:11:01"
+            "time": "2016-10-15 20:18:07"
         },
         {
             "name": "growdigital/wpml-string-translation",
-            "version": "2.4.2.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:growdigital/wpml-string-translation.git",
-                "reference": "1e8378b3aa3b191945cfbe9e1d5c9e7f8e7919a8"
+                "reference": "e8d249553d4d55f4a697550274f683baf7479c3c"
             },
             "require": {
                 "composer/installers": "^1.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-08 20:11:33"
+            "time": "2016-10-15 20:28:26"
         },
         {
             "name": "growdigital/ysgoltrewen",
@@ -617,7 +614,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "growdigital/advanced-custom-fields-pro": 20,
+        "growdigital/wp-migrate-db-pro": 20,
+        "growdigital/wp-migrate-db-pro-media-files": 20,
+        "growdigital/sitepress-multilingual-cms": 20,
+        "growdigital/wpml-string-translation": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
